@@ -12,6 +12,7 @@ int main(int argc, char const **argv)
     getcwd(path, 256);
     VideoCapture capture(std::string(path) + "/" + std::string(argv[1])); // open video source
 
+    system(std::string("mkdir " + std::string(path) + "/../frames").c_str());
     system(std::string("rm " + std::string(path) + "/../frames/*.png").c_str());
     
     if(!capture.isOpened()){
