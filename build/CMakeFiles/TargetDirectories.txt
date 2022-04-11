@@ -1,0 +1,3 @@
+/home/hamburgerjohn/dev/video-to-ascii/build/CMakeFiles/test.dir
+/home/hamburgerjohn/dev/video-to-ascii/build/CMakeFiles/edit_cache.dir
+/home/hamburgerjohn/dev/video-to-ascii/build/CMakeFiles/rebuild_cache.dir
